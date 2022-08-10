@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-color: rgba(20, 20, 20, 0.774);
+    color: white;
+    width: 500px;
+    height: 500px;
+    
+}
+h1, p{
+    text-align: center;
+    padding: 200px 10px 0 10px;
+}

@@ -1,3 +1,7 @@
+const jokeBox = document.getElementById("jokeBox");
+
 fetch('https://icanhazdadjoke.com/slack')
   .then(response => response.json())
-  .then(data => document.getElementById("textHere").innerHTML = data.attachments[0].fallback);
+  .then(data => {
+    jokeBox.innerHTML = data.attachments[0].fallback
+  });
